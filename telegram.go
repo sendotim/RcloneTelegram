@@ -6,14 +6,13 @@ import (
 	"io"
 	"strings"
 
-	"github.com/rclone/rclone/backend"
+	"github.com/rclone/rclone/tree/master/backend"
 	"github.com/rclone/rclone/fs"
 	"github.com/rclone/rclone/fs/config/configmap"
 	"github.com/rclone/rclone/fs/config/configstruct"
 	"github.com/rclone/rclone/fs/fshttp"
 	"github.com/rclone/rclone/fs/hash"
 	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/timedata"
 	"github.com/rclone/rclone/vfs"
 	"gopkg.in/telebot.v3"
 )
